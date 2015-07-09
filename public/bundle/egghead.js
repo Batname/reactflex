@@ -20482,9 +20482,9 @@
 	      _react2['default'].createElement(
 	        Locations,
 	        null,
-	        _react2['default'].createElement(Location, { path: '/', handler: _catalogAppCatalog2['default'] }),
-	        _react2['default'].createElement(Location, { path: '/cart', handler: _cartAppCart2['default'] }),
-	        _react2['default'].createElement(Location, { path: '/item/:item', handler: _productAppCatalogdetails2['default'] })
+	        _react2['default'].createElement(Location, { path: '/reactflex/', handler: _catalogAppCatalog2['default'] }),
+	        _react2['default'].createElement(Location, { path: '/reactflex/cart', handler: _cartAppCart2['default'] }),
+	        _react2['default'].createElement(Location, { path: '/reactflex/item/:item', handler: _productAppCatalogdetails2['default'] })
 	      )
 	    );
 	  }
@@ -20570,7 +20570,7 @@
 	        _react2['default'].createElement(_catalogAppAddtocartJs2['default'], { item: this.state.item }),
 	        _react2['default'].createElement(
 	          _reactRouterComponent.Link,
-	          { href: '/', className: 'btn btn-default' },
+	          { href: '/reactflex/', className: 'btn btn-default' },
 	          'Continue Shopping'
 	        )
 	      )
@@ -36930,7 +36930,7 @@
 	        { className: 'btn-group btn-group-xs' },
 	        _react2['default'].createElement(
 	          _reactRouterComponent.Link,
-	          { href: '/item/' + this.props.item.id, className: 'btn btn-default' },
+	          { href: '/reactflex/item/' + this.props.item.id, className: 'btn btn-default' },
 	          'Learn More'
 	        ),
 	        _react2['default'].createElement(_appAddtocartJs2['default'], { item: this.props.item })
@@ -37351,7 +37351,7 @@
 	      _react2['default'].createElement(
 	        _reactRouterComponent.Link,
 	        {
-	          href: '/cart',
+	          href: '/reactflex/cart',
 	          className: 'btn btn-success' },
 	        'Cart Items: ',
 	        this.state.qty,
