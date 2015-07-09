@@ -36294,7 +36294,7 @@
 	    URL.parse = function(raw) {
 	      var m, pathname, protocol;
 	      m = raw.toString().match(URL_PATTERN);
-	      pathname = m[8] || '';
+	      pathname = m[8] || '/reactflex';
 	      protocol = m[1];
 	      return new urllite.URL({
 	        protocol: protocol,
@@ -36930,7 +36930,7 @@
 	        { className: 'btn-group btn-group-xs' },
 	        _react2['default'].createElement(
 	          _reactRouterComponent.Link,
-	          { href: '/item/' + this.props.item.id, className: 'btn btn-default' },
+	          { href: '/reactflex/item/' + this.props.item.id, className: 'btn btn-default' },
 	          'Learn More'
 	        ),
 	        _react2['default'].createElement(_appAddtocartJs2['default'], { item: this.props.item })
@@ -37083,7 +37083,7 @@
 	      ),
 	      _react2['default'].createElement(
 	        _reactRouterComponent.Link,
-	        { href: '/' },
+	        { href: '/reactflex/' },
 	        'Continue shopping'
 	      )
 	    );
@@ -37351,7 +37351,7 @@
 	      _react2['default'].createElement(
 	        _reactRouterComponent.Link,
 	        {
-	          href: '/cart',
+	          href: '/reactflex/cart',
 	          className: 'btn btn-success' },
 	        'Cart Items: ',
 	        this.state.qty,
