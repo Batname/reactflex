@@ -37083,7 +37083,7 @@
 	      ),
 	      _react2['default'].createElement(
 	        _reactRouterComponent.Link,
-	        { href: '/' },
+	        { href: '/reactflex/' },
 	        'Continue shopping'
 	      )
 	    );
