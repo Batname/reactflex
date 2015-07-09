@@ -20482,9 +20482,9 @@
 	      _react2['default'].createElement(
 	        Locations,
 	        null,
-	        _react2['default'].createElement(Location, { path: 'reactflex/', handler: _catalogAppCatalog2['default'] }),
-	        _react2['default'].createElement(Location, { path: 'reactflex/cart', handler: _cartAppCart2['default'] }),
-	        _react2['default'].createElement(Location, { path: 'reactflex/item/:item', handler: _productAppCatalogdetails2['default'] })
+	        _react2['default'].createElement(Location, { path: '/reactflex/', handler: _catalogAppCatalog2['default'] }),
+	        _react2['default'].createElement(Location, { path: '/reactflex/cart', handler: _cartAppCart2['default'] }),
+	        _react2['default'].createElement(Location, { path: '/reactflex/item/:item', handler: _productAppCatalogdetails2['default'] })
 	      )
 	    );
 	  }
