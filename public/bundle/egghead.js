@@ -36373,7 +36373,7 @@
 	    'title': 'Widget # ' + i,
 	    'summary': 'My summary',
 	    'description': 'My description',
-	    'img': '/images/product.png',
+	    'img': '/reactflex/images/product.png',
 	    'cost': i
 	  });
 	});
